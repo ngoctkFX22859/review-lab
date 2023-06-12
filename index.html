@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review</title>
+  </head>
+  <style>
+    #abc {
+      margin: 20px;
+    }
+    #vb2 {
+      margin: 30px 20px;
+    }
+    #grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    .grid-items {
+      border: 1px solid black;
+    }
+    .item1 {
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <ol>
+      <!-- <li>Item1</li> -->
+      <li>Item2</li>
+      <li>Item3</li>
+    </ol>
+    <p id="abc">abc</p>
+    <p id="vb2">Văn bản 2</p>
+
+    <div id="grid-container">
+      <p class="grid-items item1">Item1</p>
+      <p class="grid-items">Item2</p>
+      <p class="grid-items">Item3</p>
+    </div>
+  </body>
+</html>
